@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable-v24/bg_pink.xml" value="0.1845" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable-xxhdpi/ddd.xml" value="0.21" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable-xxhdpi/drawable_xx.xml" value="0.21" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/background_counter.xml" value="0.205" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/background_product.xml" value="0.2" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/bg_blue_line.xml" value="0.21" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/bg_category_item.xml" value="0.205" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/bg_dialog.xml" value="0.2145" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/bg_green.xml" value="0.205" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/default_search_background.xml" value="0.2335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/defualt_search_background.xml" value="0.2335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/foreground_category.xml" value="0.2335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_add.xml" value="0.21" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_category.xml" value="0.1845" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_home.xml" value="0.2335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_mines.xml" value="0.205" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_search.xml" value="0.163" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1705" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/radius.xml" value="0.1705" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/drawable/search_background.xml" value="0.163" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/activity_gategory_item.xml" value="0.2484375" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/activity_person.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/activity_product.xml" value="0.2" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/bd_dialog.xml" value="0.2625" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/dialog_basket.xml" value="0.2625" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_basket.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_category.xml" value="0.26145833333333335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_order.xml" value="0.2484375" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_person.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_profile.xml" value="0.26145833333333335" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/item_dialog_basket.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/layout_default_search.xml" value="0.72" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/layout_defualt_search.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/layout_dialog_address.xml" value="0.2625" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/layout_dialog_basket.xml" value="0.259375" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_adress.xml" value="0.2625" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_basket.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_category.xml" value="0.264" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_default_search.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_first.xml" value="0.2625" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_home.xml" value="0.2" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_horizontal.xml" value="0.536" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_off.xml" value="0.536" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_person.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_profile.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/layout/list_item_vertical.xml" value="0.4" />
+        <entry key="..\:/ANDROID/BeautyShop/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

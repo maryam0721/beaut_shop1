@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".ProductActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProductActivity"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="@dimen/margin3"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cosmetic_banner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_product"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/txtProductNameActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginDefault"
+                    android:layout_marginEnd="@dimen/marginDefault"
+                    android:text="ضد آفتاب ضد لک Bio Taches SPF50 ام کیو"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtShortDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16"
+                    android:text="@string/shortDescriptionA1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSizeDefault" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginDefault"
+                    android:layout_marginEnd="@dimen/marginDefault"
+                    android:text="توضیحات تکمیلی :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtLongDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16"
+                    android:text="@string/longDescriptionA1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSizeDefault" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/pink_bottom_navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/marginDefault"
+            android:layout_marginEnd="@dimen/marginDefault"
+            android:text="افزودن به سبد"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSizeDefault"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayoutCounter"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayoutCounter"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayoutCounter"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayoutCounter" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin5"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayoutCounter"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تومان"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize2" />
+
+            <TextView
+                android:id="@+id/txtPriceProductActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin4"
+                android:text="6750000"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutCounter"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/marginDefault"
+            android:background="@drawable/background_counter"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <LinearLayout
+                android:id="@+id/countProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin12"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imgMines"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_mines" />
+
+                <TextView
+                    android:id="@+id/quantityProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin24"
+                    android:layout_marginEnd="@dimen/margin24"
+                    android:text="12"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

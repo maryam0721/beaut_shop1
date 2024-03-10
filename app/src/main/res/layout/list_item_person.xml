@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewAddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin5"
+    app:cardCornerRadius="@dimen/dpSize10">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_counter">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginDefault"
+            android:layout_marginTop="@dimen/marginDefault"
+            android:layout_marginEnd="@dimen/marginDefault"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtFamilyAddress"
+            app:srcCompat="@drawable/line" />
+
+        <TextView
+            android:id="@+id/txtNameAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin16"
+            android:layout_marginEnd="@dimen/margin16"
+            android:text="نام"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFamilyAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16"
+            android:layout_marginEnd="@dimen/margin4"
+            android:text="نام خانوادگی"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize"
+            app:layout_constraintBottom_toBottomOf="@+id/txtNameAddress"
+            app:layout_constraintEnd_toStartOf="@+id/txtNameAddress"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtNameAddress" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16"
+            android:layout_marginTop="@dimen/marginDefault"
+            android:layout_marginBottom="@dimen/margin16"
+            android:text="شهر خیابان کوچه پلاک"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txtNameAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewOff"
+    android:layout_width="140dp"
+    android:layout_height="230dp"
+    android:layout_margin="@dimen/margin5"
+    app:cardCornerRadius="@dimen/dpSize10"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewOfff"
+            android:layout_width="130dp"
+            android:layout_height="135dp"
+            android:layout_margin="@dimen/margin5"
+            android:layout_marginStart="@dimen/marginDefault"
+            android:layout_marginTop="@dimen/margin16"
+            android:layout_marginEnd="@dimen/marginDefault"
+            app:cardCornerRadius="@dimen/dpSize10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgOff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cosmetic_banner" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layoutDirection="rtl"
+                android:src="@drawable/off" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txtNameOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginDefault"
+            android:layout_marginEnd="@dimen/marginDefault"
+            android:layoutDirection="rtl"
+            android:paddingStart="@dimen/margin5"
+            android:paddingEnd="@dimen/margin5"
+            android:text="اسپری آب رطوبت رسان Moisture Surge کلینیک"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeSearch"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/cardViewOfff"
+            app:layout_constraintStart_toStartOf="@+id/cardViewOfff"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewOfff" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginDefault"
+            android:layout_marginTop="@dimen/margin3"
+            android:layoutDirection="rtl"
+            android:text="تومان"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeSearch"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+        <TextView
+            android:id="@+id/txtPriceOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin4"
+            android:layoutDirection="rtl"
+            android:text="9500000"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeDefault"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txt"
+            app:layout_constraintStart_toEndOf="@+id/txt"
+            app:layout_constraintTop_toTopOf="@+id/txt" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="184dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtRawPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="1360000"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="@dimen/textSizeDefault"
+            app:layout_constraintEnd_toEndOf="@+id/txtPriceOff"
+            app:layout_constraintStart_toStartOf="@+id/txtPriceOff"
+            app:layout_constraintTop_toBottomOf="@+id/txtPriceOff" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

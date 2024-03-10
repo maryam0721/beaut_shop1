@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_category_item">
+
+    <!--    <ss.com.bannerslider.Slider-->
+    <!--        android:id="@+id/banner_slider1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:ignore="MissingClass" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewHorizontalPink"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="@dimen/margin16"
+                android:layout_weight="1"
+                android:background="@drawable/bg_pink"
+                android:layoutDirection="rtl" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin3"
+                android:padding="@dimen/margin5"
+                android:text="تخفیف های روزانه"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textTitleSize"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewOff"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layoutDirection="rtl" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewHorizontalYellow"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="@dimen/marginDefault"
+                android:layout_weight="1"
+                android:background="@drawable/bg_yellow"
+                android:layoutDirection="rtl" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
